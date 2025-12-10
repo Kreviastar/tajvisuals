@@ -1,0 +1,101 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+:root{
+    --color-primary: #ff7b02;
+    /*=====GREEN TEME========*/
+    --color-primary-variant: #e5a55d;
+    --color-bg-1: #000e17;
+    --color-bg-2: #001e2d;
+    --color-bg-3: #012734;
+    --color-bg-4: #003347;
+    --color-light: #85a2b2;
+    --color-white: hsl(0, 0%, 90%);
+    --color-bg-5: #140021;
+    --container-width-lg: 88%;
+    --container-width-md: 92%;
+    --container-width-sm: 94%;
+
+    --transition: all 400ms ease;
+
+/*=====================PURPLE THEME =============*/
+/* --color-primary: #ff7b02;
+--color-primary-variant: #e5a55d;
+--color-bg-1: #140021;
+--color-bg-2: #1e0032;
+--color-bg-3: #25003e;
+--color-bg-4: #36005a;
+--color-light: #d0b8e0;
+--color-white: hsl(0, 0%, 90%)
+*/
+    --transition: all 400ms ease;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+body{
+    font-family: 'Montserrat';
+    background: var(--color-bg-3);
+    color: var(--color-light);
+    line-height: 1.7;
+}
+h1, h2 {
+   line-height: 1.1;
+   font-weight: 400;
+}
+h1{
+    font-size: 4rem;
+    color: var(--color-white);
+}
+h2{
+    color: var(--color-light);
+    transition: var(--transition);
+}
+.nav__links li a{
+    color: antiquewhite;
+}
+.nav__links li a:hover{
+    color: var(--color-primary);
+    transition: var(--transition);
+}
+a:hover{
+    color: var(--color-primary);
+    transition: var(--transition);
+}
+.container{
+    width: var(--container-width-lg);
+    margin: 0 auto;
+    max-width: 2160px;
+}
+img{
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
+/* ============nav styles====== */
+nav{
+    position: fixed;
+    height: 5rem;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.nav__container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__container > a{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+}

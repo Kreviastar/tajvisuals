@@ -1,0 +1,102 @@
+/* header */
+header{
+   position: relative;
+    top: 2rem;
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
+   
+    /* background-color: red; */
+    /* text-align: center; */
+}
+.header__container{
+    height: 90%;
+    display: grid;
+    align-items: center;
+    gap: 5rem;
+    /* background-color: red; */
+    margin-bottom: 9rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.logo{
+    font-weight: bold;
+}
+.header__right > img{
+    width: 600px;
+    position: relative;
+    left: 300px;
+    top: 4rem;
+}
+.header__left{
+   line-height: 1.9rem;
+}
+.header__left>p{
+   margin-bottom: 1.5rem;
+   margin-top: 1.5rem;
+}
+.buttons{
+    display: flex;
+    margin-left: 0;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+@media screen and (max-width:1024px){
+    header{
+      top: 5rem;
+    }
+     .header__container{
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+        gap: 2rem;
+        place-items: center;
+     }
+     .header__left{
+        line-height: 5rem;
+     }
+     .header__left>p{
+        font-size: 20px;   
+        position: absolute;
+        width: 400px;
+        margin-top: 4rem;
+        line-height: 2rem;
+        right: 40px;
+     }
+
+     .header__right{
+        margin-top: 2rem;
+        right: 10rem;
+        position: relative;
+     }
+    
+}
+@media screen and (max-width:600px){
+
+     .header__container{
+  
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+        height: 140vh;
+        place-items: center;
+     }
+   
+     .header__left>p{
+        font-size: 50px;   
+      
+        width: 600px;
+        margin-right: 5rem;
+        margin-top: 4rem;
+        line-height: 1.8rem;
+     }
+
+   
+    
+}
