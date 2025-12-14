@@ -12,10 +12,10 @@ const project = () => {
                          <img src={assets.Project1} alt="" />
                    </article>
                    <article>
-                         <img src={assets.project4} alt="" />
+                         <img src={assets.Project4} alt="" />
                    </article>
                    <article>
-                         <img src={assets.project3} alt="" />
+                         <img src={assets.Project3} alt="" />
                    </article>
              </div>
          </div>

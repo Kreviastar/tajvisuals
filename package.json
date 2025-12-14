@@ -4,6 +4,9 @@
   "homepage": "https://github.com/Kreviastar/tajvisuals.github.io",
   "version": "0.0.0",
   "type": "module",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",

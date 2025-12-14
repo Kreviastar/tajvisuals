@@ -24,9 +24,9 @@ import sun from './moon-full.svg'
 import Adegboyega  from './Adegboyega.png'
 import FIGHTER from './FIGHTER.png'
 import Project1 from './Project1.png'
-import project3 from './project3.png'
-import project5 from './project5.png'
-import project4 from './project4.png'
+import Project3 from './project3.png'
+import Project5 from './project5.png'
+import Project4 from './project4.png'
 
 
 
@@ -57,7 +57,7 @@ export const assets = {
     Adegboyega,
     FIGHTER,
     Project1,
-    project3,
-    project5,
-    project4,
+    Project3,
+    Project5,
+    Project4,
 }

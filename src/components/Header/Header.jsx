@@ -7,9 +7,9 @@ const Header = () => {
      <header>
   <div className="container header__container">
     <div className="header__left">
-  
+       <h1>Your Exceptional </h1>
       <h1>Visual Designer </h1>
-      <h1>Based in Nigeria</h1>
+
       <p>
      
         I am Adegboyega Iyanuoluwa. I create high-quality flyers, logos,
